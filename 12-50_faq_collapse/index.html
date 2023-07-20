@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>FAQ </title>
+</head>
+
+<body>
+    <h1>Frequently Asked Questions</h1>
+    <div class="faq-container">
+        <div class="faq active">
+            <h3 class="faq-title">What is JavaScript?</h3>
+            <p class="faq-text">JavaScript is a high-level, interpreted programming language primarily used for creating
+                interactive effects within web browsers. It allows developers to add dynamic content, handle events,
+                manipulate the DOM (Document Object Model), and create web applications.</p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="faq">
+            <h3 class="faq-title">What is the difference between JavaScript and Java?</h3>
+            <p class="faq-text">Despite their similar names, JavaScript and Java are two distinct programming languages.
+                JavaScript is a lightweight scripting language primarily used for web development, while Java is a
+                general-purpose, object-oriented programming language used for various applications, including web
+                development, mobile apps, and server-side development.</p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="faq">
+            <h3 class="faq-title">What is the DOM (Document Object Model) in JavaScript?</h3>
+            <p class="faq-text">The Document Object Model (DOM) is a programming interface provided by browsers to
+                interact with HTML and XML documents. It represents the structure of a web page as a tree-like structure
+                of objects, where each element in the HTML document is a node. JavaScript can manipulate the DOM,
+                allowing developers to dynamically change the content, structure, and style of a webpage without
+                reloading it.</p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="faq">
+            <h3 class="faq-title">What are the different data types in JavaScript?</h3>
+            <p class="faq-text">Primitive types: number, string, boolean, null, undefined, and symbol (introduced in
+                ES6). Object types: object, which includes arrays, functions, and other objects.</p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="faq">
+            <h3 class="faq-title">What is event delegation in JavaScript?</h3>
+            <p class="faq-text">Event delegation is a technique in JavaScript where you attach an event listener to a
+                higher-level element (such as a parent), instead of attaching it to each individual child element. When
+                an event occurs on a child element, it bubbles up through the DOM and triggers the event listener on the
+                parent. This approach is beneficial when you have multiple elements with the same behavior, as it
+                reduces the number of event listeners and can improve performance.</p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
